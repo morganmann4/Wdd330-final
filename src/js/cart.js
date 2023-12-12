@@ -9,9 +9,17 @@ shoppingCart();
 
 function renderCartContents() {
   const cartItems = getLocalStorage("so-cart");
-  const htmlItems = cartItems.map((item, index) => cartItemTemplate(item, index));
-  document.querySelector(".product-list").innerHTML = htmlItems.join("");
-  updateCartTotal(cartItems);
+
+  if (cartItems == null || cartItems <= 0) {
+    // if cart empty display emptyness
+    const htmlItems = cartEmptyTemplate();
+    document.querySelector(".product-list").innerHTML = htmlItems;
+  }else{
+    const htmlItems = cartItems.map((item, index) => cartItemTemplate(item, index));
+    document.querySelector(".product-list").innerHTML = htmlItems.join("");
+    updateCartTotal(cartItems);
+  }
+
 }
 
 
@@ -36,6 +44,15 @@ function cartItemTemplate(item, index) {
   return newItem;
 }
 
+function cartEmptyTemplate() {
+  // TODO: make this look better
+  const noItems = `<li class="cart-card divider">
+  <h2 class="card__name">Your cart is empty!</h2>
+  <p class="cart-card__color">Shop today's deals now!</p>
+  <p class="cart-card__quantity">qty: 0</p>
+</li>`;
+  return noItems;
+}
 
 document.querySelector(".product-list").addEventListener("click", (e) => {
   if (e.target.classList.contains("delete-icon")) {

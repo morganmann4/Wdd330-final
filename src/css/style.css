@@ -2,8 +2,8 @@
   --font-body: Arial, Helvetica, sans-serif;
   --font-headline: Haettenschweiler, "Arial Narrow Bold", sans-serif;
   /* colors */
-  --primary-color: #f0a868;
-  --secondary-color: #525b0f;
+  --primary-color: #f9e074;
+  --secondary-color: #ff9933;
   --tertiary-color: #a4b8c4;
   --light-grey: #d0d0d0;
   --dark-grey: #303030;
@@ -129,6 +129,7 @@ button {
   list-style-type: none;
   padding: 0;
 }
+
 .product-list a {
   text-decoration: none;
   color: var(--dark-grey);
@@ -291,4 +292,117 @@ footer {
 .cart-logo-container.animate-cart {
   transform: scale(1); 
   opacity: 1; 
+}
+
+
+/* Nav bar */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.shop-button {
+  margin: auto;
+}
+
+.shop-button-container{
+  margin: 50px;
+}
+
+.contact{
+  margin: 10px
+}
+
+.checkout{
+  display: block;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0px;
+}
+
+.checkout label{
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.checkout-container{
+  margin: 15px;
+}
+
+.login-container{
+  padding-top: 1em;
+  position: relative;
+  text-align: center;
+  margin-right: 12px;
+}
+.header-container{
+  display: flex;
+
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-container {
+  margin: 15px;
 }

@@ -252,4 +252,11 @@ export function removeAllAlerts() {
   alerts.forEach((alert) => document.querySelector("main").removeChild(alert));
 }
 
+export async function loadNavbar() {
+  const navTemplate = await loadTemplate("/partials/navbar.html");
+  const navExport = document.querySelector("#main-nav");
+
+  renderWithTemplate(navTemplate, navExport)
+}
+
 
