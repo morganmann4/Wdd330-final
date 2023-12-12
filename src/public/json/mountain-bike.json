@@ -1,0 +1,50 @@
+[
+    {
+      "Id": "880RR",
+      "NameWithoutBrand": "Co-op Cycles",
+      "Name": "Marmot Ajax Tent - 3-Person, 3-Season",
+      "Image": "../images/tents/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg",
+  
+      "SizesAvailable": {},
+      "Colors": [
+        {
+          "ColorCode": "01",
+          "ColorName": "Pale Pumpkin/Terracotta"
+        }
+      ],
+      "DescriptionHtmlSimple": "Get out and enjoy nature with Marmot&#39;s Ajax tent, featuring a smart design with durable, waterproof construction and two doors for easy access.",
+      "SuggestedRetailPrice": 300.0,
+      "Brand": {
+        "Id": "1308",
+        "LogoSrc": "../images/logos/marmot-160x100.jpg",
+        "Name": "Marmot"
+      },
+      "ListPrice": 199.99,
+      "FinalPrice": 199.99
+    },
+    {
+        "Id": "927VJ",
+        "Url": "/api/1.0/product/927vj/",
+        "WebUrl": "https://www.rei.com/product/162208/co-op-cycles-drt-11-mountain-bike?color=ETHER",
+        "AffiliateWebUrl": "https://www.rei.com/product/162208/co-op-cycles-drt-11-mountain-bike?color=ETHER",
+        "Name": "Co-op Cycles",
+        "Images": {
+          "PrimarySmall": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588",
+          "PrimaryMedium": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588",
+          "PrimaryLarge": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588",
+          "PrimaryExtraLarge": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588"
+        },
+        "DescriptionHtmlSimple": "Good for mountain riding",
+        "SuggestedRetailPrice": 130,
+        "Brand": {
+          "Id": "13530",
+          "Url": "/api/1.0/brand/13530/",
+          "LogoSrc": "",
+          "Name": "Co-op Cycles"
+        },
+        "ListPrice": 99.99,
+        "FinalPrice": 99.99
+      }
+
+  ]
+  

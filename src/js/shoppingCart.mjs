@@ -24,3 +24,15 @@ function cartItemTemplate(item) {
 
   return newItem;
 }
+
+export function cartEmptyTemplate() {
+  // TODO: make this look better
+  const noItems = `<li class="cart-card divider">
+
+  <h2 class="card__name">Your cart is empty!</h2>
+  <p class="cart-card__color">Shop today's deals now!</p>
+  <p class="cart-card__quantity">qty: 0</p>
+  <p class="cart-card__price">$---.--</p>
+</li>`;
+  return noItems;
+}

@@ -3477,6 +3477,52 @@
       },
       "ListPrice": 19.99,
       "FinalPrice": 19.99
+    },
+    {
+      "Id": "927VJ",
+      "Url": "/api/1.0/product/927vj/",
+      "WebUrl": "https://www.rei.com/product/162208/co-op-cycles-drt-11-mountain-bike?color=ETHER",
+      "AffiliateWebUrl": "https://www.rei.com/product/162208/co-op-cycles-drt-11-mountain-bike?color=ETHER",
+      "Name": "Co-op Cycles",
+      "Images": {
+        "PrimarySmall": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588",
+        "PrimaryMedium": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588",
+        "PrimaryLarge": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588",
+        "PrimaryExtraLarge": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588"
+      },
+      "DescriptionHtmlSimple": "Good for mountain riding",
+      "SuggestedRetailPrice": 130,
+      "Brand": {
+        "Id": "13530",
+        "Url": "/api/1.0/brand/13530/",
+        "LogoSrc": "",
+        "Name": "Co-op Cycles"
+      },
+      "ListPrice": 99.99,
+      "FinalPrice": 99.99
+    },
+    {
+      "Id": "927VU",
+      "Url": "/api/1.0/product/927vu/",
+      "WebUrl": "https://www.rei.com/product/162208/co-op-cycles-drt-11-mountain-bike?color=ETHER",
+      "AffiliateWebUrl": "https://www.rei.com/product/162208/co-op-cycles-drt-11-mountain-bike?color=ETHER",
+      "Name": "Co-op Cycles",
+      "Images": {
+        "PrimarySmall": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588",
+        "PrimaryMedium": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588",
+        "PrimaryLarge": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588",
+        "PrimaryExtraLarge": "https://www.rei.com/media/c8ce0c41-6b51-425c-8e36-2d9ddbeec7e2.jpg?size=784x588"
+      },
+      "DescriptionHtmlSimple": "Good for mountain riding",
+      "SuggestedRetailPrice": 130,
+      "Brand": {
+        "Id": "13530",
+        "Url": "/api/1.0/brand/13530/",
+        "LogoSrc": "",
+        "Name": "Co-op Cycles"
+      },
+      "ListPrice": 99.99,
+      "FinalPrice": 99.99
     }
   ]
 }
