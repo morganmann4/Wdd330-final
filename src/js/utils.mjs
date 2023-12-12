@@ -7,7 +7,7 @@ export function updateCartTotal() {
   const cartItems = getLocalStorage("so-cart");
   const total = cartItems.reduce((acc, item) => acc + item.FinalPrice, 0);
   const totalElement = document.getElementById("cart-total");
-  // totalElement.textContent = "$" + total.toFixed(2);
+  totalElement.textContent = "$" + total.toFixed(2);
 }
 
 document.addEventListener("DOMContentLoaded", function () {
